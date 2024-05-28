@@ -33,14 +33,14 @@ header {
 }
 
 .nav-bar {
-  margin-bottom: -65px;
+  background-color: #ffffff;
   font-family: "Sevillana", cursive;
   color: #ff70a6;
   text-shadow: 2px 2px 2px #ffffff;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 60px;
+  font-size: 46px;
   width: 100%;
 }
 .barra {
@@ -52,6 +52,7 @@ header {
   margin-right: 20px;
   height: 50px;
   display: flex;
+  align-items: center;
   text-decoration: none;
   list-style: none;
   justify-content: end;
@@ -173,13 +174,13 @@ table {
   width: 40%;
   margin: 20px auto;
   border-collapse: collapse;
-  background-color: #a9def9;
+  background-color: #fcfcfc;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 thead {
-  background-color: #333;
-  color: #fff;
+  background-color: #ff00ff;
+  color: #000000;
 }
 
 th,
@@ -187,11 +188,11 @@ td {
   padding: 12px 15px;
   text-align: left;
   border-bottom: 1px solid #000;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 tbody tr:hover {
-  background-color: #99c1de;
+  background-color: #aeb1b3;
 }
 
 tbody tr:nth-child(even) {
@@ -292,4 +293,41 @@ h3 {
   background-color: #ff6bff;
   color: white;
   transform: scale(1.1);
+}
+
+.events-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.in-door-container{
+  display: grid;
+  place-items: center; 
+  grid-template-columns: 1fr 1fr;
+}
+
+.event{
+  width: 320px;
+  text-align: center;
+}
+
+.event img{
+  height: 200px;
+  width: 300px;
+}
+
+.out-door-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.barra a{
+  text-decoration: none;
+  color: #ff70a6;
+}
+
+.barra li{
+  color: #ff70a6;
 }
